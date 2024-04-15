@@ -21,8 +21,8 @@ Bienvenue dans le dépôt du Smart Contract de Vesting pour Tezos ! Ce projet co
 1. Clonez le dépôt :
 
    ```bash
-   git clone [https://github.com/hmzaakun/vestingTezos.git]
-   cd [https://github.com/hmzaakun/vestingTezos.git]
+   git clone https://github.com/hmzaakun/vestingTezos.git
+   cd https://github.com/hmzaakun/vestingTezos.git
    ```
 
 2. Installez les dépendances :
