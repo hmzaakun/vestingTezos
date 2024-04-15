@@ -46,12 +46,12 @@ Exécutez les tests pour vous assurer que le contrat se comporte comme prévu :
 make test
 ```
 
-### coming soon : Déploiement
+### Déploiement
 
 Pour déployer le smart contract sur un testnet ou le mainnet de Tezos :
 
 ```bash
-make deploy // coming soon
+make deploy
 ```
 
 ## Utilisation 🛠
