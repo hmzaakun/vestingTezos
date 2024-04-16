@@ -46,8 +46,18 @@ let test_vesting =
     let r = Test.transfer_to_contract contr Claim 0tez in
     let () = Assert.tx_success r in
     let storage = Test.get_storage addr in
+    
+    // let expected_beneficiary_claimed_balance = amount in 
+    // let expected_beneficiary_total_balance = amount in 
+    // let () = match Big_map.find_opt beneficiary storage.beneficiaries with
+    // | None -> failwith("[Test]: benef not found")
+    // | Some {total_amount; amount_claimed} -> 
+    //     let () = Test.log amount_claimed in
+    //     let () = assert(total_amount = expected_beneficiary_total_balance) in
+    //     assert(amount_claimed = expected_beneficiary_claimed_balance)
+    // in
     let () = assert (storage.beneficiaries = Big_map.literal [(beneficiary, {total_amount = amount; amount_claimed = amount;})]) in
-
+    
     // 5 - Kill contract
     let () = Test.set_source admin in
     let r = Test.transfer_to_contract contr Kill 0tez in
