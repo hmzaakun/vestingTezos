@@ -1,5 +1,11 @@
 # Corrections
 
+Merci pour ton travail, le ligo semble bien compris, ainsi que l'utilisation du framework de test. 
+La prise en main du repo (README, et commandes qui fonctionnent) est bien. 
+Malheureusement, les consignes ne sont pas entièrement respectées (pas de transfer de token, pas de freeze, kill dégradé, pas de script de déploiement). C'est dommage car le transfer de token était le but de l'exercice.
+
+## Remarques
+
 - bon README
 - code compile, 
 - tests run (un seul test)
@@ -9,7 +15,6 @@ mais
 - la fonctionnalité `kill` version dégradée (sans remboursement)
 - pas de gestion de la periode de gel.
 
-## Remarques
 
 ## Dans le README
 
